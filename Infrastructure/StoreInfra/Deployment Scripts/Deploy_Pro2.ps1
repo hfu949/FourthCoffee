@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory)]
     [String] $ConfigurationDataFile
 ) 
-
+ 
 $WelcomeMessage="Welcome to the Azure Stack HCI 2 Node Deployment script, this script will deploy out a fully functional 2 Node Azure Stack HCI Cluster, in a Switchless configuraiton. The first step in this deployment is to ask for you to sign into your Azure Subscription."
 #Begin Function Region
 
